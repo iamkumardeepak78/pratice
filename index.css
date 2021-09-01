@@ -1,0 +1,93 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+}
+#HERO{
+  background-image: url(black2.jpg);
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  z-index: 1;
+}
+
+#HERO::after{
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: black;
+  opacity: .7;
+  z-index: -1;
+}
+.container {
+	min-height: 100vh;
+	width: 100%;
+  font-size: 2rem;
+	display: flex;
+
+	justify-content: center;
+  color: white;
+
+}
+#HERO p{
+  margin-left: -65%;
+  position: relative;
+  text-align: justify;
+  margin-top: 25%;
+  padding: 3em;
+  
+}
+
+
+#header h1{
+  padding: 1%;
+  text-align: left;
+  font-size: 3rem;
+  background-color: #333;
+  color: crimson;
+  
+}
+#header ul{
+list-style-type: none;
+  margin-top: 0;
+  padding: 0;
+  font-size: 2rem;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#header li {
+  
+  float: left;
+}
+#header li a {
+  
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#header li:hover{
+    background-color:crimson;
+}  
+
+
+ 
+
+
+
+    
